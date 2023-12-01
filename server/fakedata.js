@@ -1,101 +1,109 @@
 const Userlist = [
   {
     id: 1,
-    name: "Leanne Graham",
-    username: "Bret",
-    email: "Sincere@april.biz",
+    name: "Rajan",
+    username: "Raj",
+    email: "rajan@test.com",
     friends: [
       {
         id: 5,
-        name: "Chelsey Dietrich",
-        username: "Kamren",
-        email: "Lucio_Hettinger@annie.ca",
+        name: "Sandeep",
+        username: "Sandy",
+        email: "sandy@test.com",
       },
       {
         id: 3,
-        name: "Clementine Bauch",
-        username: "Samantha",
-        email: "Nathan@yesenia.net",
+        name: "Aman",
+        username: "Mandi",
+        email: "aman@test.com",
       },
     ],
   },
   {
     id: 2,
-    name: "Ervin Howell",
-    username: "Antonette",
-    email: "Shanna@melissa.tv",
+    name: "Abhishek",
+    username: "Abhi",
+    email: "abhi@test.com",
     friends: [
       {
         id: "4",
-        name: "Patricia Lebsack",
-        username: "Karianne",
-        email: "Julianne.OConner@kory.org",
+        name: "Ankit",
+        username: "Anki",
+        email: "anki@test.com",
       },
     ],
   },
   {
     id: 3,
-    name: "Clementine Bauch",
-    username: "Samantha",
-    email: "Nathan@yesenia.net",
+    name: "Aman",
+    username: "Mandi",
+    email: "aman@test.com",
+    friends: [
+      {
+        id: 1,
+        name: "Rajan",
+        username: "Raj",
+        email: "rajan@test.com",
+      },
+    ],
   },
   {
     id: 4,
-    name: "Patricia Lebsack",
-    username: "Karianne",
-    email: "Julianne.OConner@kory.org",
+    name: "Ankit",
+    username: "Anki",
+    email: "anki@test.com",
+    friends: [
+      {
+        id: 2,
+        name: "Abhishek",
+        username: "Abhi",
+        email: "abhi@test.com",
+      },
+    ],
   },
   {
     id: 5,
-    name: "Chelsey Dietrich",
-    username: "Kamren",
-    email: "Lucio_Hettinger@annie.ca",
+    name: "Sandeep",
+    username: "Sandy",
+    email: "sandy@test.com",
+    friends: [
+      {
+        id: 1,
+        name: "Rajan",
+        username: "Raj",
+        email: "rajan@test.com",
+      },
+      {
+        id: 3,
+        name: "Aman",
+        username: "Mandi",
+        email: "aman@test.com",
+      },
+    ],
   },
   {
     id: 6,
-    name: "Mrs. Dennis Schulist",
-    username: "Leopoldo_Corkery",
-    email: "Karley_Dach@jasper.info",
+    name: "Rahul",
+    username: "Rah",
+    email: "rahul@test.com",
+    friends: [
+      {
+        id: 5,
+        name: "Sandeep",
+        username: "Sandy",
+        email: "sandy@test.com",
+      },
+    ],
   },
 ];
 
 const Movielist = [
-  {
-    id: 1,
-    title: "The Shawshank Redemption",
-    year: 1994,
-    isInfo: true,
-  },
-  {
-    id: 2,
-    title: "The Godfather",
-    year: 1972,
-    isInfo: true,
-  },
-  {
-    id: 3,
-    title: "The Dark Knight",
-    year: 2008,
-    isInfo: true,
-  },
-  {
-    id: 4,
-    title: "The Godfather Part II",
-    year: 1974,
-    isInfo: true,
-  },
-  {
-    id: 5,
-    title: "12 Angry Men",
-    year: 1957,
-    isInfo: true,
-  },
-  {
-    id: 6,
-    title: "Schindler's List",
-    year: 1993,
-    isInfo: true,
-  },
+  { id: 1, title: "3 Idiots", year: 2009, isInfo: true },
+  { id: 2, title: "Lagaan", year: 2001, isInfo: true },
+  { id: 3, title: "Dangal", year: 2016, isInfo: true },
+  { id: 4, title: "Bahubali", year: 2015, isInfo: true },
+  { id: 5, title: "Dil Chahta Hai", year: 2001, isInfo: true },
+  { id: 6, title: "Gully Boy", year: 2019, isInfo: true },
 ];
 
 module.exports = {
